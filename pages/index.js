@@ -6,13 +6,13 @@ import logger from '../logger/logger'
 export default function Home() {
   // Logging to pino-logflare.
   // Will get sent to Logflare via HTTP.
-  logger.info("Client side logging. Logged with pino-logflare.")
+  logger.info("Client side logging. Logged with pino-logflare. :O")
 
   // Logging with pino. 
   // Will appear only in the console of the client.
   const onlyPino = require('pino')()
 
-  onlyPino.info("Client side logging. Logged with pino.")
+  onlyPino.info("Client side logging. Logged with pino. xD~")
 
   return (
     <div className={styles.container}>
