@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/api/hello-pino": "pages/api/hello-pino.js",
+  "/api/hello-pino-logflare": "pages/api/hello-pino-logflare.js"
 }
